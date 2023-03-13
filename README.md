@@ -17,12 +17,40 @@ Presented at [SIGMOD ’21, June 20–25, 2021, Virtual - Event, China](https://
 ### Reviewed for ITEC-6220 by: Firoz Kabir
 
 ---
+
+# Traditional Optimization Process
+- Identify slow sql
+- Run explain plan
+- Add hints to sql code 
+
+---
+
+# Learned Query Optimization
+- Predict Performance
+- Observe Actual
+- Retrain
+
+
+---
+
 # Problem Description
 - Long training time
 - Inability to adjust to data and workload changes
 - Tail catastrophe
 - Black-box decisions
 - Integration cost
+
+---
+
+# Deeper look at the problem
+* Predict Performance
+    - Inductive Bias
+    - Tree Convolution
+* Training 
+    - Multi-Arm Bandit Problem (Exploration vs Exploitation)
+    - Thompson Sampling
+![Multi-Arm Bandit + Thompson Sampling](f_yt_bao_bandit.png)
+
 ---
 
 # The Bao difference: 
@@ -32,9 +60,6 @@ Presented at [SIGMOD ’21, June 20–25, 2021, Virtual - Event, China](https://
 - Interpretability and easier debugging
 - Low integration cost
 - Extensibility
-
-![Multi-Arm Bandit + Thompson Sampling](f_yt_bao_bandit.png)
-
 
 ---
 
