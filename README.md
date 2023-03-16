@@ -17,6 +17,12 @@ Presented at [SIGMOD ’21, June 20–25, 2021, Virtual - Event, China](https://
 ### Reviewed for ITEC-6220 by: Firoz Kabir
 
 ---
+# Before We Get Started
+- Practitioner's Lens
+- Traditional Process
+- Credit for Diagrams
+
+---
 
 # Traditional Optimization Process
 - Identify slow sql
